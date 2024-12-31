@@ -86,3 +86,8 @@
 #         print('Enter amount above zero ');
 # else:
 #     print('incorrect pin');
+
+in_num = int(input());
+
+print('even number' if in_num % 2 == 0  else 'odd number' if in_num % 2 != 0  else 'Invaild input' );
+

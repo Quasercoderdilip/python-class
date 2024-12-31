@@ -14,7 +14,18 @@ print(type(mark));
 
 # user_input : 
 
-name_2 = input('Name : ');
-age_2 = float(input('Age : '));
-print(name_2);
-print(age_2);
+# name_2 = input('Name : ');
+# age_2 = float(input('Age : '));
+# e_mail = str(input('e-mail_ID : '));
+# phone = str(input('ph_no : '));
+
+# print(name_2);
+# print(age_2);
+# print(e_mail);
+# print(phone);
+# print(-5 - 2);
+
+
+# print(*[abs(-5 - i) for i in range(10)]);
+
+print((3+2)*2);

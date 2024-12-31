@@ -60,13 +60,27 @@
 
 #4:
 
+acc_holder = 'DK';
 suff_balance = 500;
 balance = 2000;
+hold_balance = balance - suff_balance;
 og_pin = 1234;
 
 pin = int(input('say your pin : '));
 
 if pin == og_pin :
-    print('welcome to otaaku bank...');
+    print('welcome to otaaku bank...🚀');
+    print('account holder : ' + acc_holder);
+    print('Bank_balance : ' + str(balance));
+    print('Sufficient balance : ' + str(suff_balance));
     needed_amount = int(input('enter the amount you need to retrieve : '));
-    if needed_amount <= suff_balance
+    if needed_amount > 0 and needed_amount <= hold_balance:
+        hold_balance -= needed_amount;
+        print('Transaction is successfully completed ✅');
+        print('your new balance is : ' + str(hold_balance + suff_balance) + '😊❤️🚀');
+    elif needed_amount > 0 and needed_amount >= hold_balance :
+        print('Insufficient Balance');
+    else:
+        print('Enter above zero amount');
+else:
+    print('incorrect pin');

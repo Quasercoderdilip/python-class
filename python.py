@@ -29,11 +29,11 @@ print(type(mark));
 # print(*[abs(-5 - i) for i in range(10)]);
 
 
-naname_san = input('say yes/no : ');
+# naname_san = input('say yes/no : ');
 
-if naname_san == 'yes': 
-    print('he is exist');
-elif naname_san == 'no':
-  print("doesn't exist");
-else:
-   print('invalid input');
+# if naname_san == 'yes': 
+#     print('he is exist');
+# elif naname_san == 'no':
+#   print("doesn't exist");
+# else:
+#    print('invalid input');

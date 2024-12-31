@@ -13,3 +13,8 @@ print("my mark is " + str(mark));
 print(type(mark));
 
 # user_input : 
+
+name_2 = input('Name : ');
+age_2 = float(input('Age : '));
+print(name_2);
+print(age_2);

@@ -59,3 +59,14 @@
 
 
 #4:
+
+suff_balance = 500;
+balance = 2000;
+og_pin = 1234;
+
+pin = int(input('say your pin : '));
+
+if pin == og_pin :
+    print('welcome to otaaku bank...');
+    needed_amount = int(input('enter the amount you need to retrieve : '));
+    if needed_amount <= suff_balance

@@ -78,7 +78,8 @@ if pin == og_pin :
     if needed_amount > 0 and needed_amount <= hold_balance:
         hold_balance -= needed_amount;
         print('Transaction is successfully completed ✅');
-        print('your new balance is : ' + str(hold_balance + suff_balance) + '😊❤️🚀');
+        print('your new available balance is : ' + str(hold_balance) + '😊❤️🚀');
+        print('Bye Bye...')
     elif needed_amount > 0 and needed_amount >= hold_balance :
         print('Insufficient Balance');
     else:

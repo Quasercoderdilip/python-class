@@ -39,20 +39,23 @@
 
 
 #3:
-mrk = int(input('say marks : '));
+# mrk = int(input('say marks : '));
 
-if mrk <= 100 and mrk >= 0 :
-    if mrk >= 90 :
-        print('A - grade');
-    elif mrk >= 80 :
-        print('B - grade');
-    elif mrk >= 70 :
-        print('C - grade');
-    elif mrk >= 50 :
-        print('D - grade');
-    elif mrk < 50 and mrk >= 35 :
-        print('just pass E - grade');
-    else:
-        print('fail de-grade');
-else:
-    print('Invalid input');
+# if mrk <= 100 and mrk >= 0 :
+#     if mrk >= 90 :
+#         print('A - grade');
+#     elif mrk >= 80 :
+#         print('B - grade');
+#     elif mrk >= 70 :
+#         print('C - grade');
+#     elif mrk >= 50 :
+#         print('D - grade');
+#     elif mrk < 50 and mrk >= 35 :
+#         print('just pass E - grade');
+#     else:
+#         print('fail de-grade');
+# else:
+#     print('Invalid input');
+
+
+#4:

@@ -67,3 +67,19 @@
 
 
 # nested loops :
+
+# for i in range(1,4):
+#     for j in range(1,4):
+#         for u in range(1,4):
+#             print(f'{i} , {j} , {u}');
+
+
+
+# rows = int(input('Enter a rows num : '));
+# columns = int(input('Enter a columns num : '));
+# symbol = str(input('Enter a symbol : '));
+
+# for x in range(rows):#outer loop for rows.
+#     for y in range(columns):#inner loop for column.
+#         print(symbol,end="");
+#     print();# Moving to the Next Line

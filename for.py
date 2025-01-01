@@ -41,9 +41,11 @@
 
 # table_num = int(input('Enter which table do you want :' ));
 # n = int(input('And Enter how many times do you want :' ));
-
+# print('\n')
+# print(f'Tables of {table_num} : ')
 # for i in range(1,n + 1) : 
 #     print(f'{table_num} x {i} = {i * table_num}');
+
 
 
 #reverse the list:
@@ -55,10 +57,13 @@
 
 #reversing name : 
 
-name = str(input('Enter your name : ')) ;
-rev_name = '';
+# name = str(input('Enter your name : ')) ;
+# rev_name = '';
 
-for char in name[::-1] :
-    rev_name += char;
+# for char in name[::-1] :
+#     rev_name += char;
 
-print(f'Reversed name : {rev_name}');
+# print(f'Reversed name : {rev_name}');
+
+
+# nested loops :

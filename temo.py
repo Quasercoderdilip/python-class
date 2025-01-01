@@ -14,4 +14,12 @@ var = 'Hello world';
 
 #print(var[4:-1]);
 
-print(var.index('l'));
+email = str(input('Enter your email : '));
+
+user_name = (email[:email.index('@')]);
+domain = (email[email.index('@'):]);
+
+print(user_name);
+print(domain);
+
+print(f'your username is {user_name} and your domain is {domain}');

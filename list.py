@@ -1,6 +1,6 @@
 fruits = ['apple','orange','banana','pineapple','guova'];
 
-print(fruits[::-2]);
+print(fruits);
 
 for i in fruits:
     print(i);

@@ -42,7 +42,7 @@ class Fruit():
     def display(self):
         print(self.color);
 
-apple = Fruit('red');
+apple = Fruit();
 
 
 apple.display();

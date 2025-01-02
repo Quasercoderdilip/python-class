@@ -1,9 +1,15 @@
 #constructor and self keyword : 
 
 class oi:
-    def display(self):
-        print('display');
+    def __init__(self):
+        self.name = '';  
+        self.age = 0;
+        self.gender = '';
 
 hi = oi();
 
-hi.display()
+hi.name = 'dk';
+hi.age = 23;
+hi.gender = 'male';
+
+print(hi);

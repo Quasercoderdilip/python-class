@@ -83,3 +83,8 @@
 #     for y in range(columns):#inner loop for column.
 #         print(symbol,end="");
 #     print();# Moving to the Next Line
+
+
+
+for i in 'apple':
+    print(i);

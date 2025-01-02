@@ -86,5 +86,10 @@
 
 
 
-for i in 'apple':
-    print(i);
+# for i in 'apple':
+#     print(i);
+
+std = {"name": "John", "age": 30, "city": "New York"};
+
+for key,values in std.items() :
+    print(f'{key} : {values}');

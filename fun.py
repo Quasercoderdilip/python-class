@@ -24,16 +24,16 @@
 # print(div(1,2));
 
 
-num_in = int(input('Enter the input : '));
+# num_in = int(input('Enter the input : '));
 
-def check(num):
-    if num > 0 :
-        if num % 2 == 0:
-            print('even');
-        else:
-            print('odd');
-    else:
-        print('zero or below zero is cant be checked');
+# def check(num):
+#     if num > 0 :
+#         if num % 2 == 0:
+#             print('even');
+#         else:
+#             print('odd');
+#     else:
+#         print('zero or below zero is cant be checked');
 
 
-check(num_in);
+# check(num_in);

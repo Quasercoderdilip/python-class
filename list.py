@@ -7,4 +7,9 @@ for i in fruits:
 
 setfruits = {'apple','orange','banana','pineapple','guova'};
 
-print(setfruits)
+print(type(setfruits));
+
+my_list = list(setfruits);
+print(my_list);
+
+print(type(my_list));

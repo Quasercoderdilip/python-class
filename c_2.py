@@ -80,26 +80,26 @@
 # t_2.display();
 
 
-class calci:
-    def __init__(self,a,b):
-        self.a = a;
-        self.b = b;
+# class calci:
+#     def __init__(self,a,b):
+#         self.a = a;
+#         self.b = b;
 
-    def add_display(self):
-        print(f'answer of add : {int(self.a + self.b)}');
+#     def add_display(self):
+#         print(f'answer of add : {int(self.a + self.b)}');
 
-    def sub_display(self):
-        print(f'answer of sub : {int(self.a - self.b)}');
+#     def sub_display(self):
+#         print(f'answer of sub : {int(self.a - self.b)}');
 
-    def mul_display(self):
-        print(f'answer of multiply : {int(self.a * self.b)}');
+#     def mul_display(self):
+#         print(f'answer of multiply : {int(self.a * self.b)}');
 
-    def div_display(self):
-        print(f'answer of division : {int(self.a / self.b)}');
+#     def div_display(self):
+#         print(f'answer of division : {int(self.a / self.b)}');
 
 
-num_1 = calci(15,3);
-num_1.add_display();
-num_1.sub_display();
-num_1.mul_display();
-num_1.div_display();
+# num_1 = calci(15,3);
+# num_1.add_display();
+# num_1.sub_display();
+# num_1.mul_display();
+# num_1.div_display();

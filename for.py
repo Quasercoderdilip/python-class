@@ -89,7 +89,18 @@
 # for i in 'apple':
 #     print(i);
 
-std = {"name": "John", "age": 30, "city": "New York"};
 
-for key,values in std.items() :
-    print(f'{key} : {values}');
+# std = {"name": "John", "age": 30, "city": "New York"};
+
+# for key,values in std.items() :
+#     print(f'{key} : {values}');
+
+
+nest = [[1,2,3],[4,5,6],[7,8,9],['*',0,'#']];
+
+for row in nest:
+    for col in row:
+        print(col, end = ' ');
+    print();# Moving to new line;
+
+

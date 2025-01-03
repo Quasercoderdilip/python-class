@@ -94,7 +94,7 @@ class firstson(father):
     def dummy():
         print('dummy');
 
-class grandson(firstson):
+class grandson(firstson):#this is the multilevel inheritance.
     @staticmethod
     def dummy():
         print('dummy');
@@ -103,3 +103,8 @@ class grandson(firstson):
 rajuu = grandson();
 
 rajuu.laptop();
+
+
+
+#hierarchial inheritance:
+

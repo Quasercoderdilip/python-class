@@ -80,31 +80,71 @@
 # yujii.sub(5,2);
 
 
-class grandpa:
-    def laptop(self):
-        print('this laptop is grandpaa laptop Dell.');
+# class grandpa:
+#     def laptop(self):
+#         print('this laptop is grandpaa laptop Dell.');
 
-class father(grandpa):
-    @staticmethod
-    def dummy():
-        print('dummy');
+# class father(grandpa):
+#     @staticmethod
+#     def dummy():
+#         print('dummy');
 
-class firstson(father):
-    @staticmethod
-    def dummy():
-        print('dummy');
+# class firstson(father):
+#     @staticmethod
+#     def dummy():
+#         print('dummy');
 
-class grandson(firstson):#this is the multilevel inheritance.
-    @staticmethod
-    def dummy():
-        print('dummy');
+# class grandson(firstson):#this is the multilevel inheritance.
+#     @staticmethod
+#     def dummy():
+#         print('dummy');
 
 
-rajuu = grandson();
+# rajuu = grandson();
 
-rajuu.laptop();
+# rajuu.laptop();
 
 
 
 #hierarchial inheritance:
 
+# class grandpa:
+#     def laptop(self):
+#         print('this laptop is grandpaa laptop Dell.');
+
+# class father(grandpa):
+#     @staticmethod
+#     def dummy():
+#         print('dummy');
+
+# class firstson(grandpa):
+#     @staticmethod
+#     def dummy():
+#         print('dummy');
+
+# class grandson(grandpa):
+#     @staticmethod
+#     def dummy():
+#         print('dummy');
+
+
+# rajuu = grandson();
+
+# rajuu.laptop();
+
+
+
+
+class dad:
+    def showparent(self):
+        print('this is a parent');
+
+class assets:
+    def showAssests(self):
+        print('this is a parents assests');
+
+class son_1(dad):
+    pass;
+
+class son_2(dad):
+    pass

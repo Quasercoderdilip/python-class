@@ -36,3 +36,44 @@
 
 
 
+#3:
+
+# class vehicle:
+#     def start(self):
+#         print('Vehicle started');
+
+# class car(vehicle):
+#     def start(self):
+#         print('Car started');
+
+# v = vehicle();
+# c = car();
+
+# v.start();
+# c.start();
+
+
+
+#4:
+
+class Employee:
+    name = 'Rajesh';
+    salary = 8000;
+    def set_name(self,name):
+        self.name = name;
+    def set_salary(self,salary):
+        self.salary = salary;
+
+class Manager(Employee):
+    department = 'IT';
+    def set_department(self,department):
+        self.department = department;
+    def display(self):
+        print(f'Name is {self.name} and Salary is {self.salary} and Department is {self.department}.');
+
+m = Manager();
+
+# m.set_name('pooja');
+# m.set_salary(25000);
+# m.set_department('Mechanical');
+m.display();

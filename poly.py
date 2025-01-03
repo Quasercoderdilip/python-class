@@ -21,3 +21,23 @@
 # son_1.Music();
 # son_1._dad__private();#we can access private methods like this but it is not recommended.
 
+
+#1:
+
+class Animal:
+    def sound(self):
+        print('Animal makes a sound.');
+
+class Dog(Animal):
+    def sound(self):
+        # super().sound();
+        print('Dog barks.');
+
+class Bird(Animal):
+    def sound(self):
+        # super().sound();
+        print('Bird sings.');
+
+
+bai = Bird();
+bai.sound();

@@ -15,4 +15,6 @@ class first_son(dad):
 
 
 son_1 = first_son();
-son_1.__private();
+son_1.action();
+son_1.Music();
+# son_1._dad__private();#we can access private methods like this but it is not recommended.

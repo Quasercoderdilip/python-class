@@ -134,17 +134,3 @@
 
 
 
-
-class dad:
-    def showparent(self):
-        print('this is a parent');
-
-class assets:
-    def showAssests(self):
-        print('this is a parents assests');
-
-class son_1(dad):
-    pass;
-
-class son_2(dad):
-    pass

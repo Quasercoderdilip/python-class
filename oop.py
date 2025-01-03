@@ -56,24 +56,18 @@
 
 #4:
 
-class Employee:
-    name = 'Rajesh';
-    salary = 8000;
-    def set_name(self,name):
-        self.name = name;
-    def set_salary(self,salary):
-        self.salary = salary;
+# class Employee:
+#     def __init__(self,name = 'someone',salary = 0):
+#         self.name = name;
+#         self.salary = salary;
 
-class Manager(Employee):
-    department = 'IT';
-    def set_department(self,department):
-        self.department = department;
-    def display(self):
-        print(f'Name is {self.name} and Salary is {self.salary} and Department is {self.department}.');
+# class Manager(Employee):
+#     def __init__(self, name = 'Rajesh', salary = 0, department = 'IT'):
+#         super().__init__(name,salary)
+#         self.department = department;
+#     def display(self):
+#         print(f'Name is {self.name} and Salary is {self.salary} and Department is {self.department}.');
 
-m = Manager();
+# m = Manager('siva',35000,'IOT');
 
-# m.set_name('pooja');
-# m.set_salary(25000);
-# m.set_department('Mechanical');
-m.display();
+# m.display();

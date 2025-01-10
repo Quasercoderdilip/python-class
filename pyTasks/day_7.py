@@ -7,9 +7,18 @@ while done == 'no' :
     done = str(input('Are you done ? (yes/no)')).strip();
 
 
-print(sorted(storage));
+def sorted_ans(get_val):
+
+    len_arr = len(get_val)
+
+    for i in range(len_arr):
+        for j in range(0, len_arr - i - 1):
+
+            if get_val[j] > get_val[i + 1] :
+
+                get_val[j], get_val[j+1] = get_val[j+1], get_val[j]
+
+    return get_val;
 
 
-
-# for i in storage:
-#     print(sorted());
+print(sorted_ans(storage));

@@ -54,3 +54,43 @@
 # print(lap_1.Brand,lap_1.price,lap_1.proccessor,lap_1.Ram);
 # print(lap_2.Brand,lap_2.price,lap_2.proccessor,lap_2.Ram);
 # print(lap_3.Brand,lap_3.price,lap_3.proccessor,lap_3.Ram);
+
+
+class sample:
+    std = '5th';
+    section = "'B'";
+
+    def __init__(self,name,age):
+        self.name = name #instance variable
+        self.age = age #instance variable
+
+    def show_Id(self):
+        print(f'Name : {self.name}, Age : {self.age}, Class : {self.std}, section : {self.section}');
+
+
+
+class sample_son(sample):
+    def __init__(self):
+        print('iam his son');
+
+
+
+samp = sample_son();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

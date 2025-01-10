@@ -134,3 +134,14 @@
 
 
 
+class mother:
+    def show(self):
+        print('iam a kind hearted person');
+
+class Father:
+    def show(self):
+        print('iam a jolly person.');
+
+
+class son(Father,mother):
+    def charac

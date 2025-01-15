@@ -11,7 +11,5 @@ def sum_num(num):
     return sum
     
 
-
-
 n = int(input('Enter the number : '));
 print(sum_num(n));

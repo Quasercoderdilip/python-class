@@ -13,6 +13,6 @@ def max_num_arr(arr):
 
     return num;
 
-in_arr = [1, 4, 2, 8, 5, 90, 2, 34, 56];
+in_arr = [4, 2, 8, 5, 1, 90, 2, 34, 56];
 
 print(max_num_arr(in_arr));

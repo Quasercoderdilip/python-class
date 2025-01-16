@@ -14,3 +14,21 @@ for item in arr:
 
 print(reversed_arr);
 
+
+# reverse an array (Two pointer approach) :
+
+arr = [1,2,3,4,5,6,67,6]
+
+start, end = 0, len(arr) - 1
+
+while start < end :
+    arr[start], arr[end] = arr[end], arr[start]
+
+    start += 1;
+    print(start);
+
+    end -= 1;
+    print(end);
+
+
+print(arr);

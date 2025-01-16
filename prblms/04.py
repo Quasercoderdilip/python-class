@@ -1,3 +1,5 @@
+# find the factorial of number
+
 n = int(input('Enter the num for n : '));
 num = n-1;
 f_num = n;

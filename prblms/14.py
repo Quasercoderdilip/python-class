@@ -1,15 +1,19 @@
 # *Question: Count Vowels in a String*
 
 
-para = 'Your code works correctly for calculating the power of a number. However, there are a few improvements that can make it more robust and easier to read. Let me first explain how your code';
+def vowel_counter(para):
+    v = ['a','e','i','o','u'];
+    count = 0 ;
+    cl_para = para.replace(' ', '').replace('.', '').replace(',','');
+    for i in cl_para:
+        print(i)
+        for j in v:
+            if i == j :
+                count += 1;
+    return count;
 
 
-# v = ['a','e','i','o','u'];
-# count = 0 ;
-# for i in v:
-#     if i not in para:
-#         continue;
-#     else:
-#         count += 1;
+p = 'Your code works correctly for calculating the power of a number. However, there are a few improvements that can make it more robust and easier to read. Let me first explain how your code';
 
-# print(count);
+
+print(vowel_counter(p))

@@ -9,8 +9,6 @@ def vowel_counter(para):
             count += 1;
     return count;
     
-
 p = 'Your code works correctly for calculating the power of a number. However, there are a few improvements that can make it more robust and easier to read. Let me first explain how your code';
-
 
 print(vowel_counter(p))

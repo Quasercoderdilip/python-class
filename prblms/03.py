@@ -17,7 +17,7 @@ print(reversed_arr);
 
 # reverse an array (Two pointer approach) :
 
-arr = [1,2,3,4,5,6,67,6]
+arr = [1,2,3,4,5,6,67,6,0]
 
 start, end = 0, len(arr) - 1
 
@@ -29,6 +29,7 @@ while start < end :
 
     end -= 1;
     print(end);
+    
 
 
 print(arr);

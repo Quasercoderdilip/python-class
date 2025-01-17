@@ -25,10 +25,9 @@ while start < end :
     arr[start], arr[end] = arr[end], arr[start]
 
     start += 1;
-    print(start);
-
+    
     end -= 1;
-    print(end);
+    
     
 
 

@@ -2,7 +2,11 @@
 
 n = int(input('Enter the number to input : '));
 a,b = 0,1
+fib_series = []
+
 for _ in range(n):
-    print(a);
-    a,b = b, a+b;
-    
+    fib_series.append(a)
+    a, b = b, a + b
+
+print(fib_series)
+

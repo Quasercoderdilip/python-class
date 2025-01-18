@@ -1,96 +1,35 @@
-# #classes and objects :
+import requests
 
-# class tour:
-#     drink ='';
-#     def party(self):#self keyword is must.
-#         print('lets party....');
-#     def beach(self):
-#         print('Enjoy the beach');
+url = 'https://jsonplaceholder.typicode.com/posts/1'
 
-# don = tour();
+# params = { 
+#     'id' : 3,
+#     'userId' : 5,
+#     }
 
-# don.party();
-# don.beach();
+payload = {
+    "title": "New Post",
+    "body": "This is a new post created via the API.",
+    "userId": 1
+}
 
-# class person:
-#     name = '';
-#     age = '';
-#     address = '';
+new = {
+    "title": "New",
+    "body": "Updated but empty post created via the API",
+    "userId": 1
+}
 
-# ramesh = person();
+#response = requests.post(url, json=payload)
 
-# ramesh.name = 'Ramesh';
-# ramesh.age = 23;
-# ramesh.address = 'chennai';
+response = requests.put(url, json=new)
 
-# print(ramesh.name,ramesh.age,ramesh.address);
+response = requests.delete(url)
 
-# class laptop:
-#     Brand = '';
-#     price = '';
-#     proccessor = '';
-#     Ram = '';
+data = response.json()
 
-# lap_1 = laptop();
-# lap_2 = laptop();
-# lap_3 = laptop();
+# print(f'Requests url : {response.url}')
+# print(f'Status code : {response.status_code}')
+# print(f'Response Body : {response.json()}')
 
-# lap_1.Brand = str(input('Enter your laptop brand for laptop_1: '));
-# lap_1.price = str(input('Enter your laptop price for laptop_1: '));
-# lap_1.proccessor = str(input('Enter your laptop proccessor for laptop_1: '));
-# lap_1.Ram = str(input('Enter your laptop Ram for laptop_1 : '));
-# print();
-# lap_2.Brand = str(input('Enter your laptop brand for laptop_2  : '));
-# lap_2.price = str(input('Enter your laptop price for laptop_2 : '));
-# lap_2.proccessor = str(input('Enter your laptop proccessor for laptop_2 : '));
-# lap_2.Ram = str(input('Enter your laptop Ram for laptop_2 : '));
-# print();
-# lap_3.Brand = str(input('Enter your laptop brand for laptop_3 : '));
-# lap_3.price = str(input('Enter your laptop price for laptop_3 : '));
-# lap_3.proccessor = str(input('Enter your laptop proccessor for laptop_3 : '));
-# lap_3.Ram = str(input('Enter your laptop Ram for laptop_3 : '));
-# print();
-
-# print(lap_1.Brand,lap_1.price,lap_1.proccessor,lap_1.Ram);
-# print(lap_2.Brand,lap_2.price,lap_2.proccessor,lap_2.Ram);
-# print(lap_3.Brand,lap_3.price,lap_3.proccessor,lap_3.Ram);
-
-
-class sample:
-    std = '5th';
-    section = "'B'";
-
-    def __init__(self,name,age):
-        self.name = name #instance variable
-        self.age = age #instance variable
-
-    def show_Id(self):
-        print(f'Name : {self.name}, Age : {self.age}, Class : {self.std}, section : {self.section}');
-
-
-
-class sample_son(sample):
-    def __init__(self):
-        print('iam his son');
-
-
-
-samp = sample_son();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+print(response.status_code)
+print(data)
